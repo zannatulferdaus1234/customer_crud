@@ -22,6 +22,8 @@ class VariantFactory extends Factory
             'gender'    => 'male',
             'color'     => $this->faker->colorName(),
             'size'      => 'medium',
+            'price'      => '100',
+
         ];
     }
 }

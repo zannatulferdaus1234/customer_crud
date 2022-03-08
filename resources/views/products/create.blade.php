@@ -15,43 +15,6 @@
                 @error('name') <span class="text-danger">{{ $message }}</span> @enderror
             </div>
 
-            <div class="form-group form-check form-check-inline pb-2">
-                <div class="pr-3">
-                    <input class="form-check-input" type="radio" name="status" id="status" value="1">
-                    <label class="form-check-label" for="status">Active</label>
-                </div>
-                <div class="pr-3">
-                    <input class="form-check-input" type="radio" name="status" id="status" value="0">
-                    <label class="form-check-label" for="status">InActive</label>
-                </div>
-                @error('status') <span class="text-danger">{{ $message }}</span> @enderror
-            </div>
-
-            <div class="form-group form-check form-check-inline pb-2">
-                <div class="pr-3">
-                    <input class="form-check-input" type="radio" name="status" id="status" value="1">
-                    <label class="form-check-label" for="status">Active</label>
-                </div>
-                <div class="pr-3">
-                    <input class="form-check-input" type="radio" name="status" id="status" value="0">
-                    <label class="form-check-label" for="status">InActive</label>
-                </div>
-                @error('status') <span class="text-danger">{{ $message }}</span> @enderror
-            </div>
-
-
-            <div class="form-group form-check form-check-inline pb-2">
-                <div class="pr-3">
-                    <input class="form-check-input" type="radio" name="status" id="status" value="1">
-                    <label class="form-check-label" for="status">Active</label>
-                </div>
-                <div class="pr-3">
-                    <input class="form-check-input" type="radio" name="status" id="status" value="0">
-                    <label class="form-check-label" for="status">InActive</label>
-                </div>
-                @error('status') <span class="text-danger">{{ $message }}</span> @enderror
-            </div>
-
 
 
             <div class=""><button type="submit" class="btn btn-success ">Save</button></div>

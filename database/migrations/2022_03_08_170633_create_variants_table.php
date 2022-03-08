@@ -19,6 +19,8 @@ class CreateVariantsTable extends Migration
             $table->string('gender')->nullable();
             $table->string('color')->nullable();
             $table->string('size')->nullable();
+            $table->string('price');
+
 
             $table->timestamps();
         });

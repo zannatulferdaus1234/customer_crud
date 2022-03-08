@@ -17,9 +17,4 @@ class Variant extends Model
     }
 
 
-    public function price()
-    {
-        return $this->hasMany(Price::class);
-    }
-
 }
